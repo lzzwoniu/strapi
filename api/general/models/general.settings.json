@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "posts",
+  "kind": "singleType",
+  "collectionName": "generals",
   "info": {
-    "name": "Post",
+    "name": "general",
     "description": ""
   },
   "options": {
@@ -13,10 +13,10 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "default": "我的博客"
     },
-    "content": {
-      "type": "richtext"
+    "subtit": {
+      "type": "string"
     },
     "cover": {
       "model": "file",
@@ -26,17 +26,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "is_publish": {
-      "type": "boolean"
-    },
-    "tags": {
-      "collection": "tag",
-      "via": "posts"
-    },
-    "create_by": {
-      "type": "string",
-      "default": "蜗牛"
     }
   }
 }
