@@ -41,7 +41,7 @@ module.exports = ({ env }) => ({
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'strapi'),  //远端服务器上的名字
         username: env('DATABASE_USERNAME', 'root'), //远端服务器上数据库的账号
-        password: env('DATABASE_PASSWORD', 'liuzz123'),  //远端服务器上数据库的密码
+        password: env('DATABASE_PASSWORD', 'liuzz1158'),  //远端服务器上数据库的密码
       },
       options: {},
     },
